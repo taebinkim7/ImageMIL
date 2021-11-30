@@ -3,11 +3,10 @@ import sys
 import argparse
 import numpy as np
 import skimage.io
-import tensorflow as tf
 
-from tf.keras.preprocessing import image
-from tf.keras.models import Model
-from tf.keras.layers import Input, GlobalAveragePooling2D, AveragePooling2D
+from tensorflow.keras.preprocessing import image
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, GlobalAveragePooling2D, AveragePooling2D
 
 import util
 

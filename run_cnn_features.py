@@ -3,12 +3,11 @@ import sys
 import argparse
 import numpy as np
 import skimage.io
+import tensorflow as tf
 
-from keras.preprocessing import image
-from keras.models import Model
-from keras.layers import Input
-from keras.layers.pooling import GlobalAveragePooling2D, AveragePooling2D
-from keras.utils import print_summary
+from tf.keras.preprocessing import image
+from tf.keras.models import Model
+from tf.keras.layers import Input, GlobalAveragePooling2D, AveragePooling2D
 
 import util
 
@@ -72,10 +71,6 @@ if __name__ == "__main__":
     else:
         print('Error: unsupported model')
         sys.exit(1)
-
-    if list_layers:
-        print_summary(base_model)
-        sys.exit(0)
 
     x = base_model.get_layer(layer).output
 

@@ -48,24 +48,24 @@ if __name__ == "__main__":
     max_dim = None
     input_tensor = Input(shape=(max_dim,max_dim,3))
     if model_name.lower() == 'resnet50':
-        from keras.applications.resnet50 import ResNet50
-        from keras.applications.resnet50 import preprocess_input
+        from tensorflow.keras.applications.resnet50 import ResNet50
+        from tensorflow.keras.applications.resnet50 import preprocess_input
         base_model = ResNet50(input_shape=(max_dim,max_dim,3),include_top=False,weights='imagenet')
     elif model_name.lower() == 'vgg16':
-        from keras.applications.vgg16 import VGG16
-        from keras.applications.vgg16 import preprocess_input
+        from tensorflow.keras.applications.vgg16 import VGG16
+        from tensorflow.keras.applications.vgg16 import preprocess_input
         base_model = VGG16(input_shape=(max_dim,max_dim,3),include_top=False,weights='imagenet')
     elif model_name.lower() == 'inceptionv3':
-        from keras.applications.inception_v3 import InceptionV3
-        from keras.applications.inception_v3 import preprocess_input
+        from tensorflow.keras.applications.inception_v3 import InceptionV3
+        from tensorflow.keras.applications.inception_v3 import preprocess_input
         base_model = InceptionV3(input_tensor=input_tensor,weights='imagenet')
     elif model_name.lower() == 'inceptionrenetv2':
-        from keras.applications.inception_resnet_v2 import InceptionResNetV2
-        from keras.applications.inception_resnet_v2 import preprocess_input
+        from tensorflow.keras.applications.inception_resnet_v2 import InceptionResNetV2
+        from tensorflow.keras.applications.inception_resnet_v2 import preprocess_input
         base_model = InceptionResNetV2(input_tensor=input_tensor,weights='imagenet')
     elif model_name.lower() == 'xception':
-        from keras.applications.xception import Xception
-        from keras.applications.xception import preprocess_input
+        from tensorflow.keras.applications.xception import Xception
+        from tensorflow.keras.applications.xception import preprocess_input
         base_model = Xception(input_tensor=input_tensor,weights='imagenet')
     else:
         print('Error: unsupported model')

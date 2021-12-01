@@ -14,15 +14,23 @@ H. D. Couture, Discriminative Representations for Heterogeneous Images and Multi
 
 In the latter, it is the SIL-quantile method of Chapter 2.
 
-This code is not the original used in these publications but an upgraded version to work with the latest version of Keras and other libraries.  Tested with Python 3.7.3, Keras 2.2.4, sklearn 0.20.3, and skimage 0.15.0.
+This code is not the original used in these publications but an upgraded version to work with the latest version of TensorFlow 2.0 and other libraries. Tested with Python 3.7.3.
 
 ## Setup
 
 Basic installation requires a number of python packages, which are most easily installed with conda:
 
 ```
-conda install -c conda-forge numpy scipy keras scikit-learn scikit-image
+conda install -c conda-forge numpy scipy tensorflow scikit-learn scikit-image cudnn
 ```
+
+## GPU Setup
+
+If you encounter a problem when registering TensorFlow with GPU with the warning "Could not load dynamic library 'libcudnn.so.X'", try adding
+```
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/cudnn/library
+```
+in the .bashrc file.
 
 ## Data Setup
 

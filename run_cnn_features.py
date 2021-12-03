@@ -90,6 +90,8 @@ if __name__ == "__main__":
     model = Model( inputs=base_model.input, outputs=x )
 
     for img_fn,mask_fn in zip(image_list,mask_list):
+        if not os.path.exists( src_dir+img_fn ):
+            continue
         img = image.load_img( src_dir+img_fn )
         x = image.img_to_array( img )
         x = np.expand_dims( x, axis=0 )

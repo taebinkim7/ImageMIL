@@ -1,6 +1,3 @@
-import warnings
-warnings.filterwarnings("ignore")
-
 import numpy as np
 import sklearn
 import sklearn.model_selection

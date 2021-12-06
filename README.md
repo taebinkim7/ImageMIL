@@ -23,6 +23,7 @@ Basic installation requires a number of python packages, which are most easily i
 ```
 conda install -c conda-forge numpy scipy tensorflow scikit-learn scikit-image cudnn
 ```
+Then install the python package `wdwd` from https://github.com/taebinkim7/weighted-dwd to implement Distance Weighted Discrimination (DWD).
 
 ## GPU Setup
 

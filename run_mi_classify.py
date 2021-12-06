@@ -1,3 +1,6 @@
+import warnings
+warnings.filterwarnings("ignore")
+
 import os
 import sys
 import argparse
@@ -46,7 +49,7 @@ if __name__ == '__main__':
     parser.add_argument('--cat', help='label categories to train (comma separated); default: all' )
     parser.add_argument('--calibrate', action='store_true', help='calibrate classifier' )
     parser.add_argument('--metric', help='metric to optimize during parameter search (accuracy, balanced_accuracy, roc_auc); default: accuracy' )
-    parser.add_argument('--classifier', '-c', help='classifier (svm or logistic); default: all' )
+    parser.add_argument('--classifier', '-c', help='classifier (logistic, svm, or dwd); default: svm' )
     parser.add_argument('--kernel', help='SVM kernel; default: linear' )
     parser.add_argument('--mi', help='MI type (none, median, quantile); default: none (compute mean across images)' )
     parser.add_argument('--quantiles', '-q', help='Number of quantiles; default: 16' )
@@ -143,7 +146,7 @@ if __name__ == '__main__':
             new_labels[:,i] = np.array([ ln.index(l) if l in ln else -1 for l in labels[:,c] ])
         labels = new_labels
         cats = categories
-        
+
     # read in CNN features
     feats = {}
     for sample,imagelist in sample_images.items():
@@ -166,7 +169,7 @@ if __name__ == '__main__':
         feats[sample] = np.concatenate(feats[sample],axis=0)
         if len(feats[sample].shape) == 1:
             feats[sample] = feats[sample].reshape((1,len(feats[sample])))
-            
+
         # compute mean if needed
         if mi_type is None or mi_type.lower() == 'none':
             if len(feats[sample].shape) > 1:
@@ -213,7 +216,7 @@ if __name__ == '__main__':
         options['predict_type'] = mi_type
     if metric is not None:
         options['metric'] = metric
-                        
+
     for c,cat_name in enumerate(cats):
         print(cat_name)
         res = ResultsReport(label_names[c])
@@ -233,7 +236,7 @@ if __name__ == '__main__':
                 # discard samples missing a label for sample_weight category
                 idx_train = idx_train[np.where(labels_sw[idx_train]!=-1)[0]]
                 X_train = [ feats[samples[i]] for i in idx_train ]
-                
+
                 y_train = labels[idx_train,c]
                 y_sw = y_train + len(label_names[c])*labels_sw[idx_train]
 
@@ -255,7 +258,7 @@ if __name__ == '__main__':
                     options['quantiles'] = int(quantiles)
                 model = SIL( n_jobs=n_jobs, **options )
                 model.fit( X_train, y_train, calibrate=calibrate, param_search=True, sample_weight=sw )
-                
+
             p_predict = model.predict( X_test )
             y_predict = np.argmax(p_predict,axis=1)
             acc = sklearn.metrics.accuracy_score( y_test, y_predict )
@@ -310,6 +313,6 @@ if __name__ == '__main__':
                     if len(label_names[c]) == 2:
                         res.add('sensitivity '+group_name,float( np.logical_and(y_test[idx]==1, y_predict[idx]==y_test[idx]).sum() ) / (y_test[idx]==1).sum() )
                         res.add('specificity '+group_name,float( np.logical_and(y_test[idx]!=1, y_predict[idx]==y_test[idx]).sum() ) / (y_test[idx]!=1).sum() )
-            
+
         print('Cross-validation results')
         res.print_summary()

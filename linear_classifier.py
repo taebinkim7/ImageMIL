@@ -6,6 +6,7 @@ import sklearn.calibration
 import sklearn.neighbors
 import sklearn.discriminant_analysis
 from sklearn.base import BaseEstimator, ClassifierMixin
+from wdwd import wdwd
 import warnings
 from sklearn.exceptions import ConvergenceWarning
 
@@ -20,9 +21,9 @@ def balanced_accuracy( y_true, y_pred, sample_weight=None ):
         acc += (y_pred[y_true==cl] == cl).mean()
     acc /= len(classes)
     return acc
-    
+
 class LinearClassifier(BaseEstimator,ClassifierMixin):
-    """Linear classifier: logistic regression, SVM."""
+    """Linear classifier: logistic regression, SVM, DWD."""
 
     def __init__(self, classifier='svm', kernel='linear', C=None, p=3, gamma=1e0, class_weight='balanced', subset=None, metric='accuracy', n_jobs=1, verbose=True):
 
@@ -44,14 +45,14 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
 
         if type(X) is list:
             X = np.vstack(X)
-        
+
         if self.subset is not None:
             idx = np.arange(len(y))
             np.random.shuffle(idx)
             idx = idx[:int(self.subset*len(y))]
             y = y[idx]
             X = X[idx,:]
-        
+
         if sample_weight is not None:
             self.class_weight = None
 
@@ -78,6 +79,8 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
                 self._model = sklearn.svm.SVC( kernel=self.kernel, C=self.C, gamma=self.gamma, class_weight=self.class_weight, probability=True )
         elif self.classifier.lower() == 'lda':
             self._model = sklearn.discriminant_analysis.LinearDiscriminantAnalysis( solver='lsqr' )
+        elif self.classifier.lower() == 'dwd':
+            self._model = wdwd( C=self.C )
 
         # calibrate
         if calibrate:
@@ -105,7 +108,7 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
                 self._model.fit( X, y.flatten(), sample_weight=sample_weight )
             else:
                 self._model.fit( X, y.flatten() )
-        
+
         return self
 
     def predict(self, X, y=None, cv=None ):
@@ -113,7 +116,7 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
 
         if type(X) is list:
             X = np.vstack(X)
-        
+
         X = ( X - self.mu ) / self.sigma
 
         if self._calib is not None:
@@ -123,7 +126,7 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
             else:
                 p = self._calib.predict_proba( X )
         else:
-            if self.classifier in ['logistic','svm'] and self.kernel == 'linear':
+            if self.classifier in ['logistic','svm','dwd'] and self.kernel == 'linear':
                 d = self._model.decision_function( X )
                 p = 1.0 / ( np.exp(-d) + 1 )
                 if len(p.shape) == 1:
@@ -146,7 +149,7 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
             d = np.argmax(p,axis=1)
         else:
             d = (p > 0.5).astype(int)
-        
+
         if metric == 'roc_auc':
             return sklearn.metrics.roc_auc_score( y, p, sample_weight=sample_weight )
         elif metric == 'acc' or metric == 'accuracy':
@@ -164,7 +167,7 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
 
         if type(X) is list:
             X = np.vstack(X)
-        
+
         # normalize to zero mean, unit std dev
         self.mu = X.mean(axis=0)
         self.sigma = X.std(axis=0) + 1e-4
@@ -214,4 +217,3 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
         self.gamma = gamma
 
         return C,gamma
-

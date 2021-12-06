@@ -29,6 +29,7 @@ if __name__ == "__main__":
     out_dir = args.out_dir
     if len(out_dir) > 1 and out_dir[-1] != '/':
         out_dir += '/'
+    os.makedirs(out_dir, exist_ok=True)
     model_name = args.model
     list_layers = args.list_layers
     layer = args.layer

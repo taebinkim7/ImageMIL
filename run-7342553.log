@@ -1,0 +1,1912 @@
+2022-03-20 23:51:54.583799: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2022-03-20 23:51:58.544758: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcuda.so.1
+2022-03-20 23:51:59.280193: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1733] Found device 0 with properties: 
+pciBusID: 0000:05:00.0 name: NVIDIA GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.635GHz coreCount: 68 deviceMemorySize: 10.76GiB deviceMemoryBandwidth: 573.69GiB/s
+2022-03-20 23:51:59.280640: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2022-03-20 23:51:59.287904: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublas.so.11
+2022-03-20 23:51:59.287953: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublasLt.so.11
+2022-03-20 23:51:59.291512: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcufft.so.10
+2022-03-20 23:51:59.294081: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcurand.so.10
+2022-03-20 23:51:59.300029: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcusolver.so.11
+2022-03-20 23:51:59.302959: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcusparse.so.11
+2022-03-20 23:51:59.304988: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudnn.so.8
+2022-03-20 23:51:59.306477: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1871] Adding visible gpu devices: 0
+2022-03-20 23:51:59.311485: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1733] Found device 0 with properties: 
+pciBusID: 0000:05:00.0 name: NVIDIA GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.635GHz coreCount: 68 deviceMemorySize: 10.76GiB deviceMemoryBandwidth: 573.69GiB/s
+2022-03-20 23:51:59.312871: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1871] Adding visible gpu devices: 0
+2022-03-20 23:51:59.312921: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2022-03-20 23:52:00.036502: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1258] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-03-20 23:52:00.036564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1264]      0 
+2022-03-20 23:52:00.036582: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1277] 0:   N 
+2022-03-20 23:52:00.039212: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9661 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 2080 Ti, pci bus id: 0000:05:00.0, compute capability: 7.5)
+2022-03-20 23:52:01.482875: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-03-20 23:52:01.483771: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2399890000 Hz
+2022-03-20 23:52:01.789231: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudnn.so.8
+2022-03-20 23:52:02.568418: I tensorflow/stream_executor/cuda/cuda_dnn.cc:359] Loaded cuDNN version 8201
+2022-03-20 23:52:03.426813: W tensorflow/stream_executor/gpu/asm_compiler.cc:64] Running ptxas --version returned 32512
+2022-03-20 23:52:03.502536: W tensorflow/stream_executor/gpu/redzone_allocator.cc:314] Internal: ptxas exited with non-zero error code 32512, output: 
+Relying on driver to perform ptx compilation. 
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+2022-03-20 23:52:03.681960: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublas.so.11
+2022-03-20 23:52:04.438422: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublasLt.so.11
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000852_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000852_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000852_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000965_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000965_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000965_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000942_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001039_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001039_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001039_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001044_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001044_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001044_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000988_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000988_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000988_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000998_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000998_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001062_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001062_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001031_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001031_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000855_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000855_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000855_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000940_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000940_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000940_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000975_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000863_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000863_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000946_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000946_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000946_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000914_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000914_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000914_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000986_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000986_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000986_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000984_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000984_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000984_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001043_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001043_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000874_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000874_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000874_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001045_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001045_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001061_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001061_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001058_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001058_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001058_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001093_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001093_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001093_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001111_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001111_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000955_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000879_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000879_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000879_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000837_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000837_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000837_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001441_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001441_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001132_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001132_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001132_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001054_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001054_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001054_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000876_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000876_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000876_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000917_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000917_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000917_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000918_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000918_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000918_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001462_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001462_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001462_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000990_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000990_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000990_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000894_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000894_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000894_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000857_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000857_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000857_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000933_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000933_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000933_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001047_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001047_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001047_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000908_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000908_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000908_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000910_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000910_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001082_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001082_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001082_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001466_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001466_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001466_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001053_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001053_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001035_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001035_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000909_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001055_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001055_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001055_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001103_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001103_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001103_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000888_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000888_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001436_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001436_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001075_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001075_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001075_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000966_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000966_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000966_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000945_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000945_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000945_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001033_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001033_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001033_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000865_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000865_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000856_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000856_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000856_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001447_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001447_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001073_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001073_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001073_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001473_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001473_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001078_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001078_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001078_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000834_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000834_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001071_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001071_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001071_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001102_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001102_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001102_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001451_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001451_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001451_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001444_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001444_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001450_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001450_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001450_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001439_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001439_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001439_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000951_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000951_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000951_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000892_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000892_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000892_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001481_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001459_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001459_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001459_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001014_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001014_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001129_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001129_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001129_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000187_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000187_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000187_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000915_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000915_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000915_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001022_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001022_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001022_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001096_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001096_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001096_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000853_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001474_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001474_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001474_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001019_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001019_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001019_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001005_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001005_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000931_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000931_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000931_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001470_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001470_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001470_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001017_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001472_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001472_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001472_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000832_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000832_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000832_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000862_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000862_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000862_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001476_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001476_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001476_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001067_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001067_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001067_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001072_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001072_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001072_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001091_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001091_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001091_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000930_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000930_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000930_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000911_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000911_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000911_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000912_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000912_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001051_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001051_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001051_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000982_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001008_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001008_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001008_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001020_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001020_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001020_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000812_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000812_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000812_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000859_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000859_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000859_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001059_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000949_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000949_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000949_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001070_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001070_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001070_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001069_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001069_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001069_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000980_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000980_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001018_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001114_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001114_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001114_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000886_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000886_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000948_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000948_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000948_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000845_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000845_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001125_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001012_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001012_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001479_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001479_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000927_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000927_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000927_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000880_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000880_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000840_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000840_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000944_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000944_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000944_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001083_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001083_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000913_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000926_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000926_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000926_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000872_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000872_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000872_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000958_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000958_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000958_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000969_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000969_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000969_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001064_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001064_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001064_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001469_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001469_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000963_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000963_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000963_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000941_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000941_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000941_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000848_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000848_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000848_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001052_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001052_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001052_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001122_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001122_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001122_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000895_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000895_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000895_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001101_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001101_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001101_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000925_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000925_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000925_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000991_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000991_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000991_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000916_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000916_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000916_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001460_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000835_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000835_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000835_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000842_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000842_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000842_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000922_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001046_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001046_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001046_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001097_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001097_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001097_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001076_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001076_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001076_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000881_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000881_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000881_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001118_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001118_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001118_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001026_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001026_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000866_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000866_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000866_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000453_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000453_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000453_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001095_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001095_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001095_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001449_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001449_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001032_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001048_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001048_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001048_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001452_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001452_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001452_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001438_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001438_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001438_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000943_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000850_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000850_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000850_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000864_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000864_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000864_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000972_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000972_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000972_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000974_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000974_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000974_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000868_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001027_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001027_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000849_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000849_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001066_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001066_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001066_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000885_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000885_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000885_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000985_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000985_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000985_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000861_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000950_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000950_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000950_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001087_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001087_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001087_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000904_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000904_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000904_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001056_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001056_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001056_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001128_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001128_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001128_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001001_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001001_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001001_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001049_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001049_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001010_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001010_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001010_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001094_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001094_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001094_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000831_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000831_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000831_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000841_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000893_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000186_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000186_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000186_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001050_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001050_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001050_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001038_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001038_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001038_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001433_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001433_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001433_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001457_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001457_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001457_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001127_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001127_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001127_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000836_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000836_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000836_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001478_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001478_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001454_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001454_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001454_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001134_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001134_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001134_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001013_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001013_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001461_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001461_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001434_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001434_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000870_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000870_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000883_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000883_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000883_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001037_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001037_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001037_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001445_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001445_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001445_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001042_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001042_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000869_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000869_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000869_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001467_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001467_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001467_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000906_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000906_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000906_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001471_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001471_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001471_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001463_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001463_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001483_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001483_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001483_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001477_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001477_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001112_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001112_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001112_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001113_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001113_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001113_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000902_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000902_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000902_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001088_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001088_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001088_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000932_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000932_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000932_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001030_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001030_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001030_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001081_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001081_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001110_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001110_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001110_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000992_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000992_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000992_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001124_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001130_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001130_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001130_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001133_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001133_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001133_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000967_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000967_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000967_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001464_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001464_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000919_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000919_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000919_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001024_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001024_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001024_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000905_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000905_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000905_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001006_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001006_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001006_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001105_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001105_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001105_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001077_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001077_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001077_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001004_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001004_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001109_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001109_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001109_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001453_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001057_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001057_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001057_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001099_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001099_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001099_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000092_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001063_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001063_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001063_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001011_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001011_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001011_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000889_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000838_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000838_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000838_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001117_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001117_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001117_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000953_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000953_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000953_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000920_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000920_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000920_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001119_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001119_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001119_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001435_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001435_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001435_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000890_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000890_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000890_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001468_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001029_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001029_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000976_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000976_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000976_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000098_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000098_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000098_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001456_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001456_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001456_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000993_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000993_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000993_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001442_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001442_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001442_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001106_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001106_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001106_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001098_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001098_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001098_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000968_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000968_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000968_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001480_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001480_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000973_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000973_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000973_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000897_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000897_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000897_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001065_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001065_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001065_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000875_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000878_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000878_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000878_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000964_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000964_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000964_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001028_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001028_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001034_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001034_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001034_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001068_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001068_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000898_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000970_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000970_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000970_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000847_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000847_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000847_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001060_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001060_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001060_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000960_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000960_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000960_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001079_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001079_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001079_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001084_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000961_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000961_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000961_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000987_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000987_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000987_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001089_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001089_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001080_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001100_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001100_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001100_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000833_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000833_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001002_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001002_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000858_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001121_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001121_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001121_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000959_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000959_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000959_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000923_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001107_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001107_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001107_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000843_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000891_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000891_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000896_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000896_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000896_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000873_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000873_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000873_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001116_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001116_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001116_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001437_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001437_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001437_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000971_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000971_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000971_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000184_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001126_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001126_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001126_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000954_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000954_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000954_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000903_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000903_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000903_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000665_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000665_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001115_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001115_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001115_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001482_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001482_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001482_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000937_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000937_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000937_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000997_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000997_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001016_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000981_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000981_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000981_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001040_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001040_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001040_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000947_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000947_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000947_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000860_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000860_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000860_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001041_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001041_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001041_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001074_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001074_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001074_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000935_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000935_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000935_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000097_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000097_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000979_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000979_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000979_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000846_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000846_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000846_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001108_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001108_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001108_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001458_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001458_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001458_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001465_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001465_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001465_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001086_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001086_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001086_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000936_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000936_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001446_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001446_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001003_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001104_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001104_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001104_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000899_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000899_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000899_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000854_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000854_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000983_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001036_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001036_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001036_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000839_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000839_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000839_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000995_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000995_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000989_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000989_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000989_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000882_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000882_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000882_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001085_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001085_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001085_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000999_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000999_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000938_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000938_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000188_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000188_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000188_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001023_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001023_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000871_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000871_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000871_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001443_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001443_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001443_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000957_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000957_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000957_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000901_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000901_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000901_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000887_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000887_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000887_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000844_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000844_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001009_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001009_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001009_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000994_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000994_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000884_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000884_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000884_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001021_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001021_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001021_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000907_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000907_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000907_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000939_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000939_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000939_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000900_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000900_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000900_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000867_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000867_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000867_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001131_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001131_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001131_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000185_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000185_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000185_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001007_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001007_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001120_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001120_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000851_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000851_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000851_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000956_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000956_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000956_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000928_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000928_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000928_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000189_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000189_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000189_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000962_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000962_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000962_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001448_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001448_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001448_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001015_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001015_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001123_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001123_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001123_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000952_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000952_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000952_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001440_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001440_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000877_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000877_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000877_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000934_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000934_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000934_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000977_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000977_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000977_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000978_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000978_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000978_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000978_core4_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001455_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001092_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001092_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0001092_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000921_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000921_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000921_core3_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000929_core1_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000929_core2_he_vgg16-block4_pool_i800-400.npy
+49 x 512
+Saving /datastore/lbcfs/labs/smarronlab/tkim/data/cross/he/9830_to_9741/mil/TPL-0000929_core3_he_vgg16-block4_pool_i800-400.npy

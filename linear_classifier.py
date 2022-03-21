@@ -6,7 +6,7 @@ import sklearn.calibration
 import sklearn.neighbors
 import sklearn.discriminant_analysis
 from sklearn.base import BaseEstimator, ClassifierMixin
-from wdwd import wdwd
+from wdwd import WDWD
 import warnings
 from sklearn.exceptions import ConvergenceWarning
 
@@ -80,7 +80,8 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
         elif self.classifier.lower() == 'lda':
             self._model = sklearn.discriminant_analysis.LinearDiscriminantAnalysis( solver='lsqr' )
         elif self.classifier.lower() == 'dwd':
-            self._model = wdwd( C=self.C )
+            self._model = WDWD( C=self.C )
+        # TODO: Add other classifiers
 
         # calibrate
         if calibrate:
@@ -94,7 +95,7 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
                 self._calib = sklearn.calibration.CalibratedClassifierCV( cl, method=method, cv=cv_split )
             else:
                 self._calib = sklearn.calibration.CalibratedClassifierCV( cl, method=method, cv=5 )
-            y  = y.reshape((len(y),))
+            y = y.reshape((len(y),))
             with warnings.catch_warnings():
                 warnings.filterwarnings('ignore',category=ConvergenceWarning)
                 self._calib.fit( X, y, sample_weight=sample_weight )
@@ -111,7 +112,7 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
 
         return self
 
-    def predict(self, X, y=None, cv=None ):
+    def predict(self, X, y=None, cv=None):
         """Predict."""
 
         if type(X) is list:
@@ -191,8 +192,8 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
                 gvals = [1.0]
 
         # grid search to find best C
-        if metric == 'balanced_accuracy':
-            metric = balanced_accuracy
+        # if metric == 'balanced_accuracy':
+        #     metric = balanced_accuracy
         cv = min(20,min(max((y==0).sum(),(y==-1).sum()),(y==1).sum()))
         if self.classifier.lower() == 'logistic':
             clf = sklearn.model_selection.GridSearchCV( sklearn.linear_model.LogisticRegression( class_weight=self.class_weight, solver='sag' ), [{'C':Cvals}], cv=cv, scoring=metric, n_jobs=self.n_jobs, refit=False )#, fit_params={'sample_weight':sample_weight} )
@@ -203,6 +204,8 @@ class LinearClassifier(BaseEstimator,ClassifierMixin):
                 clf = sklearn.model_selection.GridSearchCV( sklearn.svm.SVC( kernel='poly', degree=self.p, class_weight=self.class_weight ), [{'C':Cvals}], cv=cv, scoring=metric, n_jobs=self.n_jobs, refit=False )#, fit_params={'sample_weight':sample_weight} )
             elif self.kernel == 'rbf':
                 clf = sklearn.model_selection.GridSearchCV( sklearn.svm.SVC( kernel='rbf', class_weight=self.class_weight ), [{'C':Cvals,'gamma':gvals}], cv=cv, scoring=metric, n_jobs=self.n_jobs, refit=False )#, fit_params={'sample_weight':sample_weight} )
+        elif self.classifier.lower() == 'dwd':
+            clf = sklearn.model_selection.GridSearchCV( WDWD(), [{'C':Cvals}], cv=cv, scoring=metric, n_jobs=self.n_jobs, refit=False )
 
         import warnings
         with warnings.catch_warnings():

@@ -1,0 +1,15 @@
+Calibrate: False
+er
+accuracy 0.588440 auc 0.743371
+[[339  79]
+ [512 506]]
+Cross-validation results
+acc 0.588440 0.000000 0.000000
+sensitivity 0.497053 0.000000 0.000000
+specificity 0.811005 0.000000 0.000000
+auc 0.743371 0.000000 0.000000
+kappa 0.236011 0.000000 0.000000
+confusion
+0 1 
+[[339  79]
+ [512 506]]

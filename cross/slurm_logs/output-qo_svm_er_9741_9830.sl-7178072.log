@@ -1,0 +1,15 @@
+Calibrate: False
+er
+accuracy 0.580925 auc 0.497001
+[[ 23  72]
+ [ 73 178]]
+Cross-validation results
+acc 0.580925 0.000000 0.000000
+sensitivity 0.709163 0.000000 0.000000
+specificity 0.242105 0.000000 0.000000
+auc 0.497001 0.000000 0.000000
+kappa -0.048573 0.000000 0.000000
+confusion
+0 1 
+[[ 23  72]
+ [ 73 178]]
